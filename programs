@@ -36,3 +36,4 @@ pacman|alsa-utils
 pacman|os-prober
 aur|https://aur.archlinux.org/packages/trizen/
 pacman|rustup
+pacman|tree
