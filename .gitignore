@@ -2,3 +2,4 @@ sync
 files
 rmfiles
 services.files
+cache/

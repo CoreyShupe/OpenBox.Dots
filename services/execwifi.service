@@ -1,0 +1,12 @@
+[Unit]
+Description=Automatic wpa_supplicant intializer.
+After=wpa_supplicant.service
+After=dhcpcd.service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/bash /usr/bin/exec_wifi.sh
+Type=forking
+
+[Install]
+WantedBy=multi-user.target
